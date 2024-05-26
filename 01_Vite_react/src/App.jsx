@@ -1,8 +1,12 @@
+import Chai from "./chai"
 function App() {
-  const [count, setCount] = useState(0)
+  const username = "chai aur code"
 
   return (
-    <h1>Chai aur code | Gautam</h1>
+    <>
+      <Chai/>
+      <h1>chai aur react {username}</h1>
+    </>
   )
 }
 
